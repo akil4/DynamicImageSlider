@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js" defer></script>
+    <title>Image Slider</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Dynamic Image Slider</title>
 </head>
 <body>
     <header>
-        <a href="https://www.github.com/akil4" target="_blank"><p>GitHub</p></a>
-        <h1>Slide</h1>
+        <a href="https://www.github.com/akil4"><img src="github.png" alt="GitHub Logo" class="github-logo"></a>
+        <h1>Image Slider</h1>
     </header>
-    <main>
-        <div class="container">
 
+    <div class="slider-container">
+        <div class="slider">
+            <img src="https://placehold.co/600x400" alt="" class="slide">
+            <img src="https://placehold.co/600x400" alt="" class="slide">
+            <img src="https://placehold.co/600x400" alt="" class="slide">
+            <img src="https://placehold.co/600x400" alt="" class="slide">
+            <img src="https://placehold.co/600x400" alt="" class="slide">
         </div>
-    </main>
+        <button class="prev-btn">&#10094;</button>
+        <button class="next-btn">&#10095;</button>
+    </div>
+
     <footer>
-        <a href="mailto:akils4388@gmail.com"><p>Akil</p></a>
+        <p><a href="mailto:akils4388@gmail.com">Akil</a></p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
